@@ -1895,7 +1895,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 						if writefile then
 							writefile(RayfieldFolder.."/Key System".."/"..Settings.KeySettings.FileName..ConfigurationExtension, FoundKey)
 						end
-						RayfieldLibrary:Notify({Title = "MR-S:脚本已加载成功", Content = "MR-S:my5353.com/MRSupReme", Image = 3605522284})
+						RayfieldLibrary:Notify({Title = "MR-S:脚本已加载成功", Content = "MR-S:qins.mc.hi.cn/MR-S", Image = 3605522284})
 					end
 				else
 					if AttemptsRemaining == 0 then
@@ -3996,6 +3996,7 @@ task.delay(4, function()
 end)
 
 return RayfieldLibrary
+
 
 
 
