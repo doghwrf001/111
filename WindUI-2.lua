@@ -10036,8 +10036,8 @@ A.Icon, B.Title .. ":" .. A.Icon, 0, ar, "Dialog", true, A.IconThemed)
 				if not ar.IgnoreAlerts then
 					ar:SetToTheCenter()
 					ar:Dialog{
-						Title = "MR-S￼",
-						Content = "官网:http://qins.mc.hi.cn/MR-S\n欢迎下一次游玩MR-S脚本!",
+						Title = "MR-S",
+						Content = "官网:http://qins.mc.hi.cn/MR-S\n欢迎下一次游玩MR-S MultiX脚本!",
 						Buttons = {
 							{
 								Title = "取消",
