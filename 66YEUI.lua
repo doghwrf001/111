@@ -531,7 +531,7 @@ UIG.Parent = Open
         end)
 ------------------------------------------------------AL.King音乐-------------------------------------------------------
     local sound = Instance.new("Sound")
-    sound.SoundId = "rbxassetid://6797864253" --音乐id
+    sound.SoundId = "rbxassetid://123729940966906" --音乐id
     sound.Parent = game.Workspace
     sound:Play()
 ---------------分割线-------------------------------分割线-------------------------------分割线----------------
