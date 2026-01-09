@@ -77,8 +77,19 @@ game.HttpGetAsync and game:HttpGetAsync(i) or h:GetAsync(i))()
 					BackgroundColor3 = Color3.new(1, 1, 1),
 				},
 				Frame = {
-					BorderSizePixel = 0,
-					BackgroundColor3 = Color3.new(1, 1, 1),
+        BorderSizePixel = 0,
+        BackgroundColor3 = Color3.new(1, 1, 1),
+        -- 添加背景图片支持
+        BackgroundTransparency = 0.5, -- 设置透明度
+    },
+    ImageLabel = {
+        BackgroundTransparency = 1,
+        BackgroundColor3 = Color3.new(1, 1, 1),
+        BorderSizePixel = 0,
+        -- 添加默认图片属性
+        Image = "rbxassetid://95828101007163", -- 默认图片
+        ScaleType = "Tile", -- 或 "Crop", "Fit", "Stretch"
+        TileSize = UDim2.new(0, 100, 0, 100), -- 如果是平铺
 				},
 				TextLabel = {
 					BackgroundColor3 = Color3.new(1, 1, 1),
