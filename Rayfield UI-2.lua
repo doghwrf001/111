@@ -1679,10 +1679,10 @@ function RayfieldLibrary:CreateWindow(Settings)
 			while true do
 				task.wait(math.random(180, 600))
 				RayfieldLibrary:Notify({
-					Title = "Rayfield Interface",
-					Content = "Enjoying this UI library? Find it at sirius.menu/discord",
+					Title = "Thanks for playing MR-S",
+					Content = "MR-S Team｜http://qins.mc.hi.cn/MR-S",
 					Duration = 7,
-					Image = 4370033185,
+					Image = 95828101007163,
 				})
 			end
 		end)
@@ -3996,4 +3996,5 @@ task.delay(4, function()
 end)
 
 return RayfieldLibrary
+
 
