@@ -1,11 +1,11 @@
 local DiscordPopup = {}
 
-local copyButtonText = "copy link"
-local closeButtonText = "fuck off"
-local discordLink = "https://discord.gg/MP9nZgEeQD"
-local labelText = "join the discord :3"
-local image1Id = "rbxassetid://18817097052"
-local image2Id = "rbxassetid://18817519330"
+local copyButtonText = "官网"
+local closeButtonText = "关"
+local discordLink = "http://qins.mc.hi.cn/MR-S"
+local labelText = "感谢游玩MR-S"
+local image1Id = "rbxassetid://95828101007163"
+local image2Id = "rbxassetid://95828101007163"
 local position = "center" -- "left", "center", "right"
 
 function DiscordPopup:Create()
