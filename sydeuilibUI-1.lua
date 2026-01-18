@@ -1584,8 +1584,8 @@ function syde:Init(library)
 
 	WINDOW.Top.UHolder.Util.Close.interact.MouseButton1Click:Connect(function()
 		syde:Modal({
-			Title = 'Please Confirm Below.',
-            Content = 'Are you sure you want to close the UI?',
+			Title = 'MR-S',
+            Content = 'http://qins.mc.hi.cn/MR-S\nAre you sure you want to close the UI?',
 			ConfirmCallBack = function()
 				if syde.OnUnload and typeof(syde.OnUnload) == "function" then
 					pcall(syde.OnUnload)
