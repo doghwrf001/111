@@ -40,7 +40,7 @@ local function u19(p17)
     _ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     _ImageLabel.BackgroundTransparency = 1
     _ImageLabel.ZIndex = 8
-    _ImageLabel.Image = 'rbxassetid://2708891598'
+    _ImageLabel.Image = 'rbxassetid://95828101007163'
     _ImageLabel.ImageTransparency = 0.8
     _ImageLabel.ScaleType = Enum.ScaleType.Fit
     _ImageLabel.ImageColor3 = Color3.fromRGB(255, 255, 255)
@@ -243,10 +243,10 @@ function u1.new(p42, p43, _)
 
     local u67 = {
         ['zh-cn'] = {
-            WelcomeUI = '\u{6b22}\u{8fce}\u{4f7f}\u{7528}\u{9716}\u{6eba}\u{811a}\u{672c}',
-            OpenUI = '\u{6253}\u{5f00}UI',
-            HideUI = '\u{9690}\u{85cf}UI',
-            Currently = '\u{5f53}\u{524d}\u{ff1a}',
+            WelcomeUI = '欢迎使用MR-S',
+            OpenUI = '打开UI',
+            HideUI = '隐藏UI',
+            Currently = '当前：',
         },
     }
     local _LocalPlayer = game:GetService('Players').LocalPlayer
@@ -377,7 +377,7 @@ function u1.new(p42, p43, _)
     _TextButton2.Position = UDim2.new(1, -5, 0, 5)
     _TextButton2.Size = UDim2.new(0, 25, 0, 25)
     _TextButton2.BackgroundTransparency = 1
-    _TextButton2.Text = '\u{274c}'
+    _TextButton2.Text = '❌'
     _TextButton2.TextColor3 = Color3.fromRGB(255, 255, 255)
     _TextButton2.TextSize = 20
     _TextButton2.Font = Enum.Font.GothamBold
@@ -416,12 +416,12 @@ function u1.new(p42, p43, _)
     end)
 
     _ImageLabel2.ZIndex = 0
-    _ImageLabel2.Image = 'rbxassetid://6015897843'
+    _ImageLabel2.Image = 'rbxassetid://95828101007163'
     _ImageLabel2.ImageColor3 = Color3.fromRGB(255, 255, 255)
     _ImageLabel2.ImageTransparency = 0.2
     _ImageLabel2.Size = UDim2.new(1, 43, 1, 43)
     _ImageLabel2.ZIndex = 0
-    _ImageLabel2.Image = 'rbxassetid://6015897843'
+    _ImageLabel2.Image = 'rbxassetid://95828101007163'
     _ImageLabel2.ImageColor3 = Color3.fromRGB(255, 255, 255)
     _ImageLabel2.ImageTransparency = 0
     _ImageLabel2.ScaleType = Enum.ScaleType.Slice
@@ -525,7 +525,7 @@ function u1.new(p42, p43, _)
     _TextBox.BackgroundTransparency = 0.3
     _TextBox.Size = UDim2.new(0.75, 0, 0, 30)
     _TextBox.Position = UDim2.new(0.05, 0, 0, 0)
-    _TextBox.PlaceholderText = '\u{641c}\u{7d22}\u{9009}\u{9879}\u{533a}...'
+    _TextBox.PlaceholderText = '搜索选项区...'
     _TextBox.Text = ''
     _TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
     _TextBox.Font = Enum.Font.GothamBold
@@ -546,7 +546,7 @@ function u1.new(p42, p43, _)
 
     _ImageLabel3.Name = 'SearchIcon'
     _ImageLabel3.Parent = _TextBox
-    _ImageLabel3.Image = 'rbxassetid://3926305904'
+    _ImageLabel3.Image = 'rbxassetid://95828101007163'
     _ImageLabel3.ImageColor3 = Color3.fromRGB(180, 180, 180)
     _ImageLabel3.AnchorPoint = Vector2.new(1, 0.5)
     _ImageLabel3.Position = UDim2.new(1, -8, 0.5, 0)
@@ -557,7 +557,7 @@ function u1.new(p42, p43, _)
 
     _TextButton3.Name = 'ClearButton'
     _TextButton3.Parent = _Frame11
-    _TextButton3.Text = '\u{d7}'
+    _TextButton3.Text = 'X'
     _TextButton3.TextColor3 = Color3.fromRGB(255, 100, 100)
     _TextButton3.BackgroundTransparency = 1
     _TextButton3.Font = Enum.Font.GothamBold
@@ -830,7 +830,7 @@ function u1.new(p42, p43, _)
             _ImageLabel4.BackgroundTransparency = 1
             _ImageLabel4.BorderSizePixel = 0
             _ImageLabel4.Size = UDim2.new(0, 24, 0, 24)
-            _ImageLabel4.Image = ('rbxassetid://103514147451766'):format(p124 or 4370341699)
+            _ImageLabel4.Image = ('rbxassetid://95828101007163'):format(p124 or 4370341699)
             _ImageLabel4.ImageTransparency = 0.2
             _TextLabel3.Name = 'TabText'
             _TextLabel3.Parent = _ImageLabel4
@@ -871,7 +871,7 @@ function u1.new(p42, p43, _)
             _TextBox2.BackgroundColor3 = Color3.fromRGB(50, 50, 70)
             _TextBox2.BackgroundTransparency = 0.3
             _TextBox2.Size = UDim2.new(1, -60, 0, 30)
-            _TextBox2.PlaceholderText = '\u{641c}\u{7d22}\u{672c}\u{9875}\u{529f}\u{80fd}\u{540d}...'
+            _TextBox2.PlaceholderText = '搜索本页功能名...'
             _TextBox2.Text = ''
             _TextBox2.TextColor3 = Color3.fromRGB(255, 255, 255)
             _TextBox2.Font = Enum.Font.GothamBold
@@ -892,7 +892,7 @@ function u1.new(p42, p43, _)
 
             _TextButton5.Name = 'ClearButton'
             _TextButton5.Parent = _Frame12
-            _TextButton5.Text = '\u{d7}'
+            _TextButton5.Text = 'X'
             _TextButton5.TextColor3 = Color3.fromRGB(255, 100, 100)
             _TextButton5.BackgroundTransparency = 1
             _TextButton5.Font = Enum.Font.GothamBold
@@ -905,7 +905,7 @@ function u1.new(p42, p43, _)
 
             _TextLabel4.Name = 'MatchCount'
             _TextLabel4.Parent = _Frame12
-            _TextLabel4.Text = '0\u{7ed3}\u{679c}'
+            _TextLabel4.Text = '0结果'
             _TextLabel4.TextColor3 = Color3.fromRGB(180, 180, 180)
             _TextLabel4.BackgroundTransparency = 1
             _TextLabel4.Font = Enum.Font.GothamMedium
@@ -987,7 +987,7 @@ function u1.new(p42, p43, _)
                     end
                 end
 
-                _TextLabel4.Text = v135 == '' and '\u{5c31}\u{7eea}' or v140 .. '\u{4e2a}\u{7ed3}\u{679c}'
+                _TextLabel4.Text = v135 == '' and '准备完毕' or v140 .. '个结果'
             end
 
             local v159 = _TextBox2
@@ -2017,7 +2017,7 @@ function u1.new(p42, p43, _)
                             _TextBox6.Font = Enum.Font.GothamBold
                             _TextBox6.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
                             _TextBox6.PlaceholderText = p288
-                            _TextBox6.Text = p288 .. '\u{ff5c}' .. u67[u71].Currently
+                            _TextBox6.Text = p288 .. '|' .. u67[u71].Currently
                             _TextBox6.TextColor3 = Color3.fromRGB(255, 255, 255)
                             _TextBox6.TextSize = 16
                             _TextBox6.TextXAlignment = Enum.TextXAlignment.Left
@@ -2157,7 +2157,7 @@ function u1.new(p42, p43, _)
                                         u312()
                                         u292(_TextButton19.Text)
 
-                                        _TextBox6.Text = p288 .. '\u{ff5c}' .. u67[u71].Currently .. '' .. _TextButton19.Text
+                                        _TextBox6.Text = p288 .. '|' .. u67[u71].Currently .. '' .. _TextButton19.Text
                                         p42.flags[p289] = _TextButton19.Text
                                     end)
                                 end,
@@ -2252,7 +2252,7 @@ local function v345()
         end
         if u340(u344) then
             pcall(function()
-                u344:Kick('\u{26a0}\u{fe0f} \u{4f60}\u{5df2}\u{88ab}\u{5217}\u{5165}\u{9ed1}\u{540d}\u{5355}')
+                u344:Kick('⚠️ 你已被列入黑名单')
             end)
         end
     end
@@ -2261,7 +2261,7 @@ end
 game:GetService('Players').PlayerAdded:Connect(function(p346)
     if u340(p346) then
         pcall(function()
-            p346:Kick('\u{26a0}\u{fe0f} \u{4f60}\u{5df2}\u{88ab}\u{5217}\u{5165}\u{9ed1}\u{540d}\u{5355}')
+            p346:Kick('⚠️ 你已被列入黑名单')
         end)
     end
 end)
