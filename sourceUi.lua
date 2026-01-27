@@ -484,9 +484,8 @@ FloatingText.Parent = FloatingIcon
 FloatingText.BackgroundTransparency = 1
 FloatingText.Size = UDim2.new(1, 0, 1, 0)
 FloatingText.ZIndex = 51
-FloatingIcon.Image = "rbxassetid://95828101007163"
-FloatingIcon.ImageColor3 = Library.Theme.MainColor
-FloatingIcon.ScaleType = Enum.ScaleType.Slice
+FloatingText.Font = Library.Theme.TextFont
+FloatingText.Text = "🦅"
 FloatingText.TextColor3 = Color3.fromRGB(255, 255, 255)
 FloatingText.TextSize = 20
 local function AutoContrast()
