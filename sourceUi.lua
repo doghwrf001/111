@@ -485,7 +485,7 @@ FloatingText.BackgroundTransparency = 1
 FloatingText.Size = UDim2.new(1, 0, 1, 0)
 FloatingText.ZIndex = 51
 FloatingText.Font = Library.Theme.TextFont
-FloatingText.Text = "MR-S"  -- 删除这一行
+FloatingText.Text = "M"
 FloatingText.TextColor3 = Color3.fromRGB(255, 255, 255)
 FloatingText.TextSize = 20
 local function AutoContrast()
