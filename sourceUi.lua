@@ -475,7 +475,7 @@ FloatingIcon.Parent = UILibrary
 FloatingIcon.BackgroundTransparency = 1
 FloatingIcon.Position = UDim2.new(0, 100, 0, 100)
 FloatingIcon.Size = UDim2.new(0, 40, 0, 40)
-FloatingIcon.Visible = false
+FloatingIcon.Visible = true
 FloatingIcon.ZIndex = 50
 
 local FloatingText = Instance.new("TextLabel")
