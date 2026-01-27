@@ -469,16 +469,45 @@ FloatingIcon.ScaleType = Enum.ScaleType.Slice
 FloatingIcon.SliceCenter = Rect.new(100, 100, 100, 100)
 FloatingIcon.SliceScale = 0.050
 
-local FloatingText = Instance.new("TextLabel")
-FloatingText.Name = "FloatingText"
-FloatingText.Parent = FloatingIcon
-FloatingText.BackgroundTransparency = 1
-FloatingText.Size = UDim2.new(1, 0, 1, 0)
-FloatingText.ZIndex = 51
-FloatingText.Font = Library.Theme.TextFont
-FloatingText.Text = "W"
-FloatingText.TextColor3 = Color3.fromRGB(255, 255, 255)
-FloatingText.TextSize = 20
+local FloatingIcon = Instance.new("Frame")
+FloatingIcon.Name = "FloatingIcon"
+FloatingIcon.Parent = UILibrary
+FloatingIcon.BackgroundTransparency = 1
+FloatingIcon.Position = UDim2.new(0, 100, 0, 100)
+FloatingIcon.Size = UDim2.new(0, 40, 0, 40)
+FloatingIcon.Visible = false
+FloatingIcon.ZIndex = 50
+
+-- 背景（圆角）
+local Background = Instance.new("ImageLabel")
+Background.Name = "Background"
+Background.Parent = FloatingIcon
+Background.Size = UDim2.new(1, 0, 1, 0)
+Background.Image = "rbxassetid://3570695787"
+Background.ImageColor3 = Library.Theme.MainColor
+Background.ScaleType = Enum.ScaleType.Slice
+Background.SliceCenter = Rect.new(100, 100, 100, 100)
+Background.SliceScale = 0.050
+
+-- 图标
+local Icon = Instance.new("ImageLabel")
+Icon.Name = "Icon"
+Icon.Parent = FloatingIcon
+Icon.AnchorPoint = Vector2.new(0.5, 0.5)
+Icon.Position = UDim2.new(0.5, 0, 0.5, 0)
+Icon.Size = UDim2.new(0.7, 0, 0.7, 0)  -- 图标大小为背景的70%
+Icon.BackgroundTransparency = 1
+Icon.Image = "rbxassetid://95828101007163"  -- 你的图标资产ID
+Icon.ImageColor3 = Library.Theme.TextColor
+Icon.ScaleType = Enum.ScaleType.Fit
+
+-- 确保图标可点击
+local ClickButton = Instance.new("TextButton")
+ClickButton.Name = "ClickButton"
+ClickButton.Parent = FloatingIcon
+ClickButton.Size = UDim2.new(1, 0, 1, 0)
+ClickButton.BackgroundTransparency = 1
+ClickButton.Text = ""
 local function AutoContrast()
     local color = string.lower(tostring(getgenv().Color))
     if color == "white" then
