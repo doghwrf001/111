@@ -12129,8 +12129,8 @@ if not au.IgnoreAlerts then
 au:SetToTheCenter()
 au:Dialog{
 
-Title="MR-S",
-Content="http://qins.mc.hi.cn/MR-S",
+Title="MRSupreme",
+Content="https://www.mr-s.us.ci\nWelcome back next time! Would you like to close the UI?",
 Buttons={
 {
 Title="NO",
