@@ -1,7 +1,7 @@
 
 getgenv().AbysallHubSettings = {
 	Name = "MR-S",
-	DiscordInvite = "http://qins.mc.hi.cn/MR-S",
+	DiscordInvite = "www.mr-s.us.ci",
 	SelectedLibrary = "Obsidian",
 	GameName = "Placeholder",
 	ExecutorSupport = loadstring(game:HttpGet(AbysallHubSettings.Repository .. "ExecutorSupport.lua"))()
