@@ -1680,7 +1680,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 				task.wait(math.random(180, 600))
 				RayfieldLibrary:Notify({
 					Title = "Thanks for playing MR-S",
-					Content = "MR-S Team｜http://qins.mc.hi.cn/MR-S",
+					Content = "MR-S Team｜www.mr-s.us.ci",
 					Duration = 7,
 					Image = 95828101007163,
 				})
@@ -3996,5 +3996,6 @@ task.delay(4, function()
 end)
 
 return RayfieldLibrary
+
 
 
