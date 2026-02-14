@@ -21,11 +21,11 @@ local IconModule = {
     IconThemeTag = nil,  
       
     Icons = {  
-        lucide = loadstring(Get("https://raw.githubusercontent.com/Footagesus/Icons/refs/heads/main/lucide/dist/Icons.lua"))(),
-        solar = loadstring(Get("https://raw.githubusercontent.com/Footagesus/Icons/refs/heads/main/solar/dist/Icons.lua"))(),
-        craft = loadstring(Get("https://raw.githubusercontent.com/Footagesus/Icons/refs/heads/main/craft/dist/Icons.lua"))(),
-        geist = loadstring(Get("https://raw.githubusercontent.com/Footagesus/Icons/refs/heads/main/geist/dist/Icons.lua"))(),
-        sfsymbols = loadstring(Get("https://raw.githubusercontent.com/Footagesus/Icons/refs/heads/main/sfsymbols/dist/Icons.lua"))(),
+        lucide = loadstring(Get("https://github.com/doghwrf001/111/raw/refs/heads/222/IconModule/Icons-1.lua"))(),
+        solar = loadstring(Get("https://github.com/doghwrf001/111/raw/refs/heads/222/IconModule/Icons-2.lua"))(),
+        craft = loadstring(Get("https://github.com/doghwrf001/111/raw/refs/heads/222/IconModule/Icons-3.lua"))(),
+        geist = loadstring(Get("https://github.com/doghwrf001/111/raw/refs/heads/222/IconModule/Icons-4.lua"))(),
+        sfsymbols = loadstring(Get("https://github.com/doghwrf001/111/raw/refs/heads/222/IconModule/Icons-5.lua"))(),
     }
 }  
   
