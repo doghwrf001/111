@@ -1581,13 +1581,13 @@ function redzlib:MakeWindow(Configs)
 	local Window, FirstTab = {}, false
 	function Window:CloseBtn()
 		local Dialog = Window:Dialog({
-			Title = "关闭脚本",
-			Text = "欢迎你下次使用[MRSupreme|免费版]",
+			Title = "MR-S",
+			Text = "🌐 www.mr-s.us.ci\nWelcome back to use the script next time",
 			Options = {
-				{"确定", function()
+				{"YES", function()
 					ScreenGui:Destroy()
 				end},
-				{"取消"}
+				{"NO"}
 			}
 		})
 	end
