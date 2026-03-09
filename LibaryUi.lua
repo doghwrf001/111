@@ -1847,13 +1847,13 @@ function redzlib:MakeWindow(Configs)
 	
 	function Window:CloseBtn()
 		local Dialog = Window:Dialog({
-			Title = "Close",
-			Text = "Deseja realmente fechar o Linux Hub? Ele contém recursos essenciais e fechar agora pode interromper funções importantes, causar falhas ou perder suas configurações. Cuidado antes de prosseguir!",
+			Title = "MR-S Close",
+			Text = "🌐 www.mr-s.us.ci\nWelcome back to use the script next time",
 			Options = {
-				{"Confirm", function()
+				{"YES", function()
 					ScreenGui:Destroy()
 				end},
-				{"Cancel"}
+				{"NO"}
 			}
 		})
 	end
